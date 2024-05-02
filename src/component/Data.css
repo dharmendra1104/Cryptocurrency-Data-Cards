@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    
 }
 .data{
     text-align: center;
@@ -22,8 +22,8 @@
 .data-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: space-around;
+    gap: 10px;
     padding: 10px;
 }
 
@@ -32,7 +32,9 @@
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 32%;
+    margin: 10px;
+    width: 30%;
+    overflow: hidden;
 }
 
 .data:hover{
@@ -91,14 +93,14 @@
       @keyframes l10 {
           100% {background-size:120% 120%}
     }  
-<<<<<<< HEAD
-=======
-}
->>>>>>> 3554529bc843f4222188daf6523cc270ed459109
 
     .data {
-        margin: 10px;
+
+        margin: 20px;
         width: 100%;
+        overflow: hidden;
     }
-    
+
 }
+
+    
